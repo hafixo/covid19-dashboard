@@ -9,21 +9,21 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.0.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
+gem "minima", ">= 2.5.1"
 # To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-octicons'
-  gem 'jekyll-remote-theme'
+  gem "jekyll-feed", "~> 0.13", ">= 0.13.0"
+  gem 'jekyll-octicons', '>= 9.5.0'
+  gem 'jekyll-remote-theme', '>= 0.4.2'
   gem "jekyll-twitter-plugin"
-  gem 'jekyll-relative-links'
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-toc'
-  gem 'jekyll-gist'
+  gem 'jekyll-relative-links', '>= 0.6.1'
+  gem 'jekyll-seo-tag', '>= 2.6.1'
+  gem 'jekyll-toc', '>= 0.13.1'
+  gem 'jekyll-gist', '>= 1.5.0'
   gem 'jekyll-paginate'
-  gem 'jekyll-avatar'
+  gem 'jekyll-avatar', '>= 0.7.0'
 end
 
 gem "kramdown-math-katex"
